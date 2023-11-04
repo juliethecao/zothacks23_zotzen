@@ -1,8 +1,11 @@
+import GoogleCalendar from '../components/calendar/GoogleCalendar';
 import './home.css';
 
 function Home() {
   return (
-    <div className="home">home</div>
+    <div className="home">
+        <GoogleCalendar></GoogleCalendar>
+    </div>
   );
 }
 
