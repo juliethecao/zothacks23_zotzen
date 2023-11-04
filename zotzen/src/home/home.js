@@ -1,8 +1,11 @@
 import './home.css';
+import ChoreList from '../components/chore-list/chore-list.js'
 
 function Home() {
   return (
-    <div className="home">home</div>
+    <div className="home">
+      <ChoreList></ChoreList>
+    </div>
   );
 }
 

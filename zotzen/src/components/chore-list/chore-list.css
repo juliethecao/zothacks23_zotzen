@@ -1,0 +1,22 @@
+.chore {
+    display: flex;
+    flex-direction: row; 
+    gap: 10px;
+}
+
+.chore-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chore-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.chore-details input {
+}
