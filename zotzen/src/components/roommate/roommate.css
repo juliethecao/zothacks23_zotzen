@@ -1,0 +1,25 @@
+.roommates {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5%;
+    /* width: 20vw; */
+    background-color: #c0c0c0; /* note: V != B */
+}
+.roommateOne-container {
+    display: flex;
+    justify-content: flex-start; /* might change later */
+    align-items: flex-start;
+}
+
+.roommateTwo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.roommateThree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
