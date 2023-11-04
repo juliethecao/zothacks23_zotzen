@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1%;
+    /* width: 20vw; */
+    background-color: #F7F5FB;
+}
+.logo-container {
+    display: flex;
+    justify-content: flex-start; /* might change later */
+    align-items: flex-start;
+}
+
+.logo-pic {
+    width: 20%;
+    height: auto;
+}
