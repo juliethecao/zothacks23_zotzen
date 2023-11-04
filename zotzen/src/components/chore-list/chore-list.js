@@ -17,6 +17,9 @@ const ChoreList = () => {
     
     return (
         <div className="chore-list">
+            <div className="chore-title">
+                <h2>chores</h2>
+            </div>
             {chores.map((chore) => (
                 <div className="chore">
                     <input type="checkbox"></input>    
