@@ -4,7 +4,7 @@
     justify-content: space-between;
     padding: 1%;
     /* width: 20vw; */
-    background-color: #F7F5FB; /* note: V != B */
+    background-color: #cceeb7; /* note: V != B */
 }
 .logo-container {
     display: flex;
