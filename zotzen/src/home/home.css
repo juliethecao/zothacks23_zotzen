@@ -8,3 +8,27 @@
     display: flex;
     flex-direction: column;
 }
+
+/* access the month year in the top corner right */
+.ant-row.css-dev-only-do-not-override-2i2tap {
+    color: red;
+}
+
+/* access the times*/
+.ant-col.ant-col-3.css-dev-only-do-not-override-2i2tap {
+    color: blue !important;
+}
+
+/* access the days of the week */
+.ant-col.ant-col-3.css-dev-only-do-not-override-2i2tap p:nth-child(1) {
+    color: orange !important;
+    font-size: 14px !important;
+}
+
+/* access the number days of the week */
+.ant-col.ant-col-3.css-dev-only-do-not-override-2i2tap p:nth-child(2){
+    color: purple !important;
+    font-size: 20px !important;
+
+}
+
