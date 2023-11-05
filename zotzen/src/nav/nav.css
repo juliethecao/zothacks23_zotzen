@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 1%;
-    /* width: 20vw; */
+    width: 20vw;
     background-color: #F7F5FB; /* note: V != B */
 }
 .logo-container {

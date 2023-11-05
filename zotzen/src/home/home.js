@@ -6,7 +6,7 @@ import Reminders from '../components/reminders/reminders.js';
 function Home() {
   return (
     <div className="home">
-      <GoogleCalendar></GoogleCalendar>
+      <div className="background-window"><GoogleCalendar></GoogleCalendar></div>
       <div className="right-bar">
         <ChoreList />
         <Reminders />
