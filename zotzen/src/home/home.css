@@ -1,15 +1,45 @@
 .home {
-    background-color: #F5F7FB;
+    background-color: #C0CEA9;
     display: flex;
     flex-direction: row;
+    width: 80vw;
 }
 
 .background-window {
     background-color: white;
     border-radius: 15px;
     margin: 10px;
+    width: 70%;
+    padding: 3%;
 }
 
+.submission {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+
+.stickybutton {
+    margin-left: 15px;
+    background-color: #a1b5d8;
+    border: none;
+    border-radius: 15px;
+    width: 20%;
+}
+.stickies {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.sticky {
+    padding: 0 2%;
+    border-radius: 15px;
+    border-color: #a1b5d8;
+    border-width: 10px;
+
+}
 .right-bar {
     display: flex;
     flex-direction: column;

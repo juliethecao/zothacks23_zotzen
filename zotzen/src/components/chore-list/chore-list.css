@@ -9,6 +9,10 @@
     font-size: 15px;
 }
 
+h2 {
+    font-size: 24px;
+}
+
 .chore-details {
     display: flex;
     flex-direction: column;
