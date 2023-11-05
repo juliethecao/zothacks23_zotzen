@@ -1,5 +1,6 @@
 import './nav.css';
 import Roommate from '../components/roommate/roommate.js';
+import Profile from '../components/profile/profile.js';
 
 function Nav() {
   return (
@@ -9,10 +10,7 @@ function Nav() {
         </div>
           <Roommate></Roommate>
         <div className="profile">
-            <div>me, myself, and i</div>
-            {/* Profile pic */}
-            {/* Username */}
-            {/* Maybe some selectable Status symbols */}
+            <Profile></Profile>
         </div>
     </div>
   );
