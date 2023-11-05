@@ -35,3 +35,12 @@
     justify-content: center;
     background-color: white;
 }
+
+input:checked:before {
+    content: "";
+    background-color: red;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}

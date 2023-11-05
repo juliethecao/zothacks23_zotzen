@@ -1,4 +1,6 @@
-import './chore-list.css'
+import { useState } from "react";
+import './chore-list.css';
+import Checkbox from '@mui/material/Checkbox';
 const ChoreList = () => {
     let chores = [
         {
@@ -15,22 +17,38 @@ const ChoreList = () => {
         }
     ];
     
+    ;
+    
     return (
         <div className="chore-list">
             <div className="chore-title">
                 <h2>chores</h2>
             </div>
             {chores.map((chore) => (
-                <div className="chore">
-                    <input type="checkbox"></input>    
-                    <div className="chore-details">
-                        <p>{chore.description}</p> 
-                        <p>{chore.id}</p>
-                    </div>
-                </div> 
+                <Chore id={chore.id} description={chore.description}/>
             ))}
         </div>
     )
+}
+
+const Chore = (props) => {
+    const [StrikeThroughCSS, setStrikeThroughCSS] = useState(false)
+    return (<div className="chore">
+        <Checkbox color="success" onClick={() => 
+            setStrikeThroughCSS((prev) => !prev)}
+        /> {/* https://mui.com/material-ui/react-checkbox/ */}
+        <div className="chore-details">
+            <p style={
+                {
+                textDecoration: StrikeThroughCSS ? "line-through" : "none"
+            }}>{props.description}</p> 
+            <p style={
+                {
+                    textDecoration: StrikeThroughCSS ? "line-through" : "none"
+                }}>{props.id}</p>
+        </div>
+    </div> 
+    );
 }
 
 export default ChoreList;
