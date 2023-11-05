@@ -1,16 +1,24 @@
 .nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1%;
     padding-top: 40px;
     width: 20vw;
-    background-color: #cceeb7; /* note: V != B */
+    background-color: #AABD8C; /* note: V != B */
 }
 .logo-container {
     display: flex;
-    justify-content: center; /* might change later */
+    flex-direction: column;
+    align-content: space-between;
+    padding-bottom: 100px;
+    justify-content: space-between; 
     align-items: center;
+}
+
+.zotzen {
+    display: flex;
+    padding: 5%;
 }
 
 .logo-pic {

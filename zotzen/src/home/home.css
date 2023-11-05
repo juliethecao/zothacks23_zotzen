@@ -1,9 +1,45 @@
 .home {
-    background-color: #F5F7FB;
+    background-color: #C0CEA9;
     display: flex;
     flex-direction: row;
+    width: 80vw;
 }
 
+.background-window {
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    width: 70%;
+    padding: 3%;
+}
+
+.submission {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+
+.stickybutton {
+    margin-left: 15px;
+    background-color: #a1b5d8;
+    border: none;
+    border-radius: 15px;
+    width: 20%;
+}
+.stickies {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.sticky {
+    padding: 0 2%;
+    border-radius: 15px;
+    border-color: #a1b5d8;
+    border-width: 10px;
+
+}
 .right-bar {
     display: flex;
     flex-direction: column;
@@ -16,18 +52,18 @@
 
 /* access the times*/
 .ant-col.ant-col-3.css-dev-only-do-not-override-2i2tap {
-    color: blue !important;
+    color: green!important;
 }
 
 /* access the days of the week */
 .ant-col.ant-col-3.css-dev-only-do-not-override-2i2tap p:nth-child(1) {
-    color: orange !important;
+    color: green !important;
     font-size: 14px !important;
-}
+} 
 
 /* access the number days of the week */
 .ant-col.ant-col-3.css-dev-only-do-not-override-2i2tap p:nth-child(2){
-    color: purple !important;
+    color: grey!important;
     font-size: 20px !important;
 
 }

@@ -14,9 +14,10 @@ export const col = {
   };
   
   export const container = {
-    paddingRight: '10em',
-    paddingTop: '2em',
-    paddingBottom: '2em',
+    paddingLeft: '7em',
+    paddingRight: '7em',
+    paddingTop: '1em',
+    paddingBottom: '1em',
   };
   
   export const weekDates = {
