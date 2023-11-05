@@ -1,47 +1,21 @@
-.roommates {
+.profile {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-content: space-between;
-    padding: 20%;
-    border-radius: 20px;
-    color: white;
+    align-content: flex-end;
+    color: black;
     /* width: 20vw; */
-    background-color: #cceeb7; /* note: V != B */
-}
-.roommatecontainer {
-    margin: 16px;
-}
-.roommateOne-container {
-    display: flex;
-    flex-direction: column;
-    padding: 5%;
-    justify-content: space-between; /* might change later */
-    align-items: flex-start;
     border-radius: 20px;
-    background-color: black;
+    background-color: #f7f5fb; /* note: V != B */
 }
 
-.roommateTwo-container {
+.profile-container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 5%;
-    border-radius: 20px;
-    background-color: black;
-
 }
 
-.roommateThree-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 5%;
-    border-radius: 20px;
-    background-color: black;
-
-}
-.logo-pic2 {
-    width: 20%;
+.status {
+    width: 15%;
     height: auto;
 }

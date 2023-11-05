@@ -4,14 +4,16 @@ function Roommate() {
   return (
     <div className = "roommates">
 	<div className = "roommateOne-container roommatecontainer">
-    	Lauren Shu
+    	Lauren
+      <img className="status" src="../status_sleep.png" alt="a status"></img>
     </div>
     <div className = "roommateTwo-container roommatecontainer">
-    <img className="logo-pic" src="../logo.png" alt="test"></img>
     	Denise  
+      <img className="status" src="../status_sleep.png" alt="a status"></img>
     </div>
     <div className = "roommateThree-container roommatecontainer">
     	Pitbull
+      <img className="status" src="../status_sleep.png" alt="a status"></img>
     </div>
 </div>
   );
