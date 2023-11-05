@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  /*background-color: #F7F5FB; */
+  /* background-color: #F7F5FB; */
+  font-family: 'Lato', sans-serif;
 }
 
 .root {
