@@ -1,5 +1,12 @@
 .home {
-    flex-grow: 6;
+    background-color: #F5F7FB;
+    display: flex;
+    flex-direction: row;
+}
+
+.right-bar {
+    display: flex;
+    flex-direction: column;
 }
 
 /* access the month year in the top corner right */
