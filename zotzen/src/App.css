@@ -1,5 +1,8 @@
 * {
-} 
+  margin: 0;
+  padding: 0;
+  /*background-color: #F7F5FB; */
+}
 
 .root {
   display: flex; /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */

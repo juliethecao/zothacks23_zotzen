@@ -3,14 +3,17 @@ import './roommate.css';
 function Roommate() {
   return (
     <div className = "roommates">
-	<div className = "roommateOne-container">
-    	This is roomie one
+	<div className = "roommateOne-container roommatecontainer">
+    	Lauren
+      <img className="status" src="../status_sleep.png" alt="a status"></img>
     </div>
-    <div className = "roommateTwo-container">
-    	This is roomie two
+    <div className = "roommateTwo-container roommatecontainer">
+    	Denise  
+      <img className="status" src="../status_sleep.png" alt="a status"></img>
     </div>
-    <div className = "roommateThree-container">
-    	This is roomie three
+    <div className = "roommateThree-container roommatecontainer">
+    	Pitbull
+      <img className="status" src="../status_sleep.png" alt="a status"></img>
     </div>
 </div>
   );

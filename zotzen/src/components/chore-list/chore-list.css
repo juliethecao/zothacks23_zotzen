@@ -1,0 +1,46 @@
+
+.chore {
+    display: flex;
+    flex-direction: row; 
+    gap: 10px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.chore-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.chore-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+    height: 70vh;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.chore-title {
+    display: flex;
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+
+input:checked:before {
+    content: "";
+    background-color: red;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}

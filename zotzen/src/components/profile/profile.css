@@ -1,0 +1,21 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    color: black;
+    /* width: 20vw; */
+    border-radius: 20px;
+    background-color: #f7f5fb; /* note: V != B */
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.status {
+    width: 15%;
+    height: auto;
+}

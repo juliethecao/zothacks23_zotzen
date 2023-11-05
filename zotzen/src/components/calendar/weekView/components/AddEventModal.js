@@ -11,17 +11,17 @@ class AddEventModal extends Component {
    * To show the title auto fill and
    * re-initialize the title on adding new event
    */
-  static getDerivedStateFromProps (nextProps) {
-    if (nextProps.eventTitle) {
-      return {
-        title: nextProps.eventTitle,
-      };
-    } else {
-      return {
-        title: '',
-      };
-    }
-  }
+  // static getDerivedStateFromProps (nextProps) {
+  //   if (nextProps.eventTitle) {
+  //     return {
+  //       title: nextProps.eventTitle,
+  //     };
+  //   } else {
+  //     return {
+  //       title: '',
+  //     };
+  //   }
+  // }
 
   /**
    * Sets the title in the state
@@ -44,7 +44,7 @@ class AddEventModal extends Component {
     const {title} = this.state;
     return (
       <Modal
-        visible={this.props.visible}
+        open={this.props.visible}
         onOk={this.handleOk}
         onCancel={this.props.onClose}
         footer={[
